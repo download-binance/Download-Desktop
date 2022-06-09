@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	 
+	<title>Gift to children</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Custom Theme files -->
+	<!--theme-style-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+	<!--//theme-style-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<!--fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
+
+	<!--//fonts-->
+	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/component.css"/>
+</head>
+<body>
+<!--header-->
+<div class="header" style="flex: 0 0 auto;">
+	<div class="top-header">
+		<div class="container">
+			<div class="top-head">
+				<ul class="header-in">
+					<li><a href="terms.html">Terms and conditions</a></li>
+					<li><a href="policy.html">Privacy policy</a></li>
+				</ul>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!---->
+
+	<div class="header-top">
+		<div class="container">
+			<div class="head-top">
+				<div class="logo">
+
+					<h1><a href="index.html"> Odd job</a></h1>
+
+				</div>
+				<div class="top-nav">
+
+
+					<ul>
+						<li><a href="index.html">Main</a></li>
+						<li><a href="blog.html">Articles</a></li>
+						<li><a href="contact.html">Contacts</a></li>
+						<li><a href="policy.html">Privacy policy</a></li>
+						<li><a href="terms.html">Terms and conditions</a></li>
+						<div class="clearfix"></div>
+					</ul>
+
+					<!--script-->
+					<script>
+						$("span.menu").click(function () {
+							$(".top-nav ul").slideToggle(500, function () {
+							});
+						});
+					</script>
+
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</div style>
+<!--banner-->
+
+<!--content-->
+<div class="contact" style="flex: 1 0 auto;">
+
+    <div class="container">
+        <h2>Contacts</h2>
+        <div class="contact-form">
+
+            <div class="col-md-8 contact-grid">
+                <form action="thanks.html" method="post">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Phone number">
+
+                    <textarea cols="77" rows="6"></textarea>
+                    <div class="send">
+						<input type="checkbox" name="terms" value="check" required=""/>
+						<a href="policy.html" target="_blank">
+							I have read and agree to the terms of the user agreement
+						</a>
+
+						<input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4 contact-in">
+
+                <div class="address-more">
+
+
+                    <p>5935 Shania Row
+Port Shanie, WV 09688-1906</p>
+                </div>
+                <div class="address-more">
+
+                    <p>+9235353007182</p>
+                    <p>Email:<a href="#"> isaiah32@considine.com</a></p>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+</div>
+<!---->
+<!---->
+<div class="footer" style="flex: 0 0 auto;">
+	<div class="footer-middle">
+		<div class="container">
+
+			<div class="footer-middle-in">
+
+				<ul>
+					<li><a href="terms.html">Terms and conditions</a></li>
+					<li><a href="policy.html">Privacy policy</a></li>
+				</ul>
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<p class="footer-class"> Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+		All rights reserved
+	</p>
+
+</div>
+<div class='cookie-banner'>
+	<p>
+		The site uses cookies. They allow us to recognize you and get information about your user experience.By continuing to browse the site, I agree to the use of cookies by the site owner in accordance with  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Cookie policy</a>
+	</p>
+	<button class='close-cookie'>&times;</button>
+</div>
+
+<script>
+	window.onload = function () {
+		$('.close-cookie').click(function () {
+			$('.cookie-banner').fadeOut();
+		})
+	}
+</script>
+<script>
+	let elems = document.querySelectorAll('.server-name');
+	elems.forEach((elem) => {
+		elem.innerHTML = window.location.hostname
+	})
+</script>
+</body>
+</html>
